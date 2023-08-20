@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharun Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Header Section -->
+        <header class="header">
+            <a href="#hero" class="nav">T<span>R</span></a>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class="bx bx-menu" id="menu-icon"></i>
+                <i class="bx bx-x" id="x-icon"></i>
+            </label>
+
+            <nav class="navbar">
+                <a href="#hero" style="--i:0"><span>H</span>ome</a>
+                <a href="#services" style="--i:1"><span>S</span>ervices</a>
+                <a href="#projects" style="--i:2"><span>P</span>rojects</a>
+                <a href="#about" style="--i:3"><span>A</span>bout</a>
+                <a href="#contact" style="--i:4"><span>C</span>ontact</a>
+            </nav>
+        </header>
+    <!-- End Header Section -->
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1 class="heading">Hi, <span></span></h1>
+                <h1 class="heading">I'm<span></span></h1>
+                <h1 class="heading">Tharun Ranga <span></span></h1>
+                <a href="#projects" type="button" class="btn">Portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!--End Hero Section -->
+
+    <!--Service Section-->
+    <section id="services">
+        <div class="services container">
+            <div class="service-top"></div>
+            <h1 class="section-title">SERV<span>I</span>CES</h1>
+            <P class="description">A dedicated and enthusiastic frontend developer with a strong foundation in HTML, CSS, and JavaScript. 
+                Excited to create visually appealing and user-friendly web experiences that merge design and functionality seamlessly.</P>
+            <div class="service-bottom">
+                <div class="service-item">
+                    <div class="icon">
+                        <img width="50" height="50" src="https://img.icons8.com/bubbles/50/gears.png" alt="gears"/>
+                    </div>
+                    <h2 class="services-heading">Web Design</h2>
+                    <p class="services-content">As a budding web designer, I possess a keen eye for aesthetics and a passion for crafting visually appealing 
+                        and intuitive web experiences that captivate users. My goal is to blend creativity with functionality to 
+                        create designs that leave a lasting impact.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <img width="50" height="50" src="https://img.icons8.com/bubbles/50/mind-map.png" alt="mind-map"/>
+                    </div>
+                    <h2 class="services-heading">Creative Problem Solver</h2>
+                    <p class="services-content">Adept at translating design concepts into responsive and engaging web interfaces. 
+                        Committed to delivering innovative solutions that enhance user interaction 
+                        and contribute to a positive browsing experience.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <img width="50" height="50" src="https://img.icons8.com/bubbles/50/learning.png" alt="learning"/>
+                    </div>
+                    <h2 class="services-heading">Continuous Learner</h2>
+                    <p class="services-content">Eager to stay updated with the latest trends and technologies in frontend development. 
+                        Committed to refining skills through ongoing learning, experimentation, 
+                        and collaboration to build captivating digital solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Service Section-->
+
+    <!-- Projects Section -->
+        <section id="projects">
+            <div class="projects p-container">
+                <div class="projects-header">
+                    <h1 class="section-title">RECENT <span>PROJECTS</span></h1>
+                </div>
+                <div class="all-projects">
+                    <div class="projects-item">
+                        <div class="project-info">
+                            <a href="https://tharunfoodmuch.ccbp.tech/" target="_blank">Food Munch</a>
+                            <p>A fully responsive website that offers a comprehensive list of food items and detailed information about each
+                                item. Designed to provide the best user experience with HTML structure elements and Bootstrap components
+                                Implemented product videos to give customers a clear view of the food items.
+                            </p>
+                            <h2>Technologies Used: HTML, CSS, BOOTSTRAP</h2>
+                        </div>
+                        <div class="project-img">                           
+                            <img src="./assets/foodmunch.png" alt="foodmunch" />
+                        </div>
+                    </div>
+                    <div class="projects-item">
+                        <div class="project-info">
+                            <a href=https://tharunmoneyapp.ccbp.tech/ target="_blank">Money Manager App</a>
+                            <p>The Money Manager Application is a user-friendly tool for efficiently managing finances. It enables easy tracking of 
+                                income, expenses, and overall balance, providing a clear financial overview. Users can conveniently monitor their 
+                                financial health and make informed decisions.
+                            </p>
+                            <h2>Technologies Used: HTML, CSS, JS, REACTJS</h2>
+                        </div>
+                        <div class="project-img">
+                            <img src="https://assets.ccbp.in/frontend/content/react-js/money-manager-lg-output.png" alt="moneyManager">
+                        </div>
+                    </div>
+                    <div class="projects-item">
+                        <div class="project-info">
+                            <a href="https://tharunapps.ccbp.tech/" target="_blank">App Store</a>
+                            <p>The App Store Application simplifies app exploration. It facilitates seamless app searching and categorization 
+                                across diverse media types. Users can effortlessly find and discover apps tailored to their preferences, 
+                                enhancing their digital experience.
+                            </p>
+                            <h2>Technologies Used: HTML, CSS, JS, REACTJS</h2>
+                        </div>
+                        <div class="project-img">
+                            <img src="https://assets.ccbp.in/frontend/content/react-js/app-store-lg-output-v2.png" alt="appStore">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Projects Section -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./assets/Tharun.jpg" alt="tharun" />
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">ABOUT <span>ME</span></h1>
+                <h2>Front End Developer</h2>
+                <p>As a fresher Front End Developer, I have a strong foundation in HTML, CSS, and JavaScript, 
+                    coupled with a passion for creating visually appealing and user-friendly web interfaces. 
+                    Your eagerness to learn and adapt, along with a willingness to collaborate with design and 
+                    back-end teams, will enable you to craft engaging and responsive user experiences. 
+                    With an eye for detail and a commitment to staying current with industry trends, 
+                    you're poised to contribute effectively to modern web development projects.
+                </p>
+                <a href="https://drive.google.com/file/d/1qpkkDHFyylyGPS5ogN56Xpnibh-lgBOH/view?usp=drive_link" type="button" class="btn" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">CONTACT <span>INFO</span></h1></div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img width="50" height="50" src="https://img.icons8.com/bubbles/50/phone--v1.png" alt="phone--v1"/></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+91 94816 79563</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img width="50" height="50" src="https://img.icons8.com/bubbles/50/new-post.png" alt="new-post"/></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>rtharun9563@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img width="50" height="50" src="https://img.icons8.com/bubbles/50/map-marker.png" alt="map-marker"/></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>3rd A Main Road, Kaveripura, Kamakshipalya, Bengaluru - 560079</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer Section -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>T</span>harun <span>R</span>anga</h1>
+                <h2>Follow Me Here:- </h2>
+            </div>
+            <div class="social-icons">
+                <div class="social-item">
+                    <a href="https://www.linkedin.com/in/tharun-ranga/" target="_blank"><img width="50" height="50" src="https://img.icons8.com/bubbles/100/linkedin.png" alt="linkedin"/></a>
+                </div>
+                <div class="social-item">
+                     <a href="https://github.com/TharunRanga" target="_blank"><img width="50" height="50" src="https://img.icons8.com/bubbles/50/github.png" alt="github"/></a>
+                </div>
+            </div>
+            <p>Copyright © 2023 Tharun. All right reserved.</p>
+        </div>
+    </section>
+    <!-- End Footer Section -->
+
+</body>
+</html>
